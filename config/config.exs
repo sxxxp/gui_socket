@@ -10,12 +10,12 @@ config :gui, :viewport,
   name: :main_viewport,
   size: {800, 1080},
   theme: :light,
-  default_scene: Gui.Scene.MainChat,
+  default_scene: Gui.Scene.Home,
   drivers: [
     [
       module: Scenic.Driver.Local,
       name: :local,
-      window: [resizeable: false, title: "gui"],
+      window: [resizeable: false, title: "Socket Chat"],
       on_close: :stop_system
     ]
   ]

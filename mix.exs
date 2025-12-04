@@ -23,6 +23,7 @@ defmodule Gui.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:socket, "~> 0.3.13"},
       {:scenic, "~> 0.11.0"},
       {:scenic_driver_local, "~> 0.11.0"},
     ]
